@@ -1,4 +1,4 @@
-# INDE577-Rice-University-Fall-2021
+# INDE577 @ Rice University Fall 2021
 
 This repository is special for code assignments of course INDE577, Data Science and Machine Learning, of Rice University in Fall 2021. The course instructor is Dr. Randy R. Davila, Associate Professor of University OF Houston-Downtown.
 
