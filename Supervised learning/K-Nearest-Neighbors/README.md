@@ -6,10 +6,13 @@ This repository represents the implementation and applications of K-Nearest Neig
 "K-Nearest Neighbors.ipynb" contains the describtion and my hard coding of KNN algorithm, then it's applied on a classification and a regression problem. Further the affect of *k* is explored on a dataset.
 
 Outline:
-* Algorithm describtion
-* Hard code of KNN
-* Application on classification problem using *wine* dataset
-* Application on regression problem using *boston housing* dataset
+* Introduction
+* Algorithm
+* Illustration
+* Advantages and Disadvantages
+* Hard code of KNN classifier and regressor
+* Application on classification
+* Application on regression
 * Impact of *k* in KNN
 
 ## Dataset used in applications
