@@ -11,9 +11,8 @@ Outline:
 * Illustration
 * Advantages and Disadvantages
 * Hard code of KNN classifier and regressor
-* Application on data sets
-  ** Classification
-  ** Regression
+* Application on classification
+* Application on Regression
 * Impact of *k* in KNN
 
 ## Dataset used in applications
