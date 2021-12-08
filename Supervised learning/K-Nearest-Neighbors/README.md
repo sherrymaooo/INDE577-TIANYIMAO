@@ -10,7 +10,7 @@ Outline:
 * Algorithm
 * Illustration
 * Advantages and Disadvantages
-* Hard code of KNN
+* Hard code of KNN classifier and regressor
 * Application on classification problem using *wine* dataset
 * Application on regression problem using *boston housing* dataset
 * Impact of *k* in KNN
