@@ -11,8 +11,8 @@ Outline:
 * Illustration
 * Advantages and Disadvantages
 * Hard code of KNN classifier and regressor
-* Application on classification problem using *wine* dataset
-* Application on regression problem using *boston housing* dataset
+* Application on classification problem
+* Application on regression problem using
 * Impact of *k* in KNN
 
 ## Dataset used in applications
