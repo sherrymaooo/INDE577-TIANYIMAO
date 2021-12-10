@@ -8,7 +8,7 @@ For this repository, each sub-repository is named by an algorithm name, and it c
 
 Until now the following topics have been covered:
 
-* Supervised learning
+* Supervised Learning
   * K-Nearest Neighbors
   * Linear Regression
   * Perceptrons
@@ -16,9 +16,9 @@ Until now the following topics have been covered:
   * Multilayer Neural Network
   * Decision Trees
   * Ensemble Learning and Random Forest
-* Unsupervised learning
+* Unsupervised Learning
   * Principal Component Analysis
-* Convex and optimization methods
+* Optimization methods
   * Gradient Descent
   * Stochastic Gradient Descent
 
