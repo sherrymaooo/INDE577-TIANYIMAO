@@ -10,10 +10,13 @@ Outline:
 * Algorithm
 * Illustration
 * Advantages and Disadvantages
+    * Advantages
+    * Disadvantages
 * Hard code of KNN classifier and regressor
-* Application on classification
-* Application on regression
-* Impact of *k* in KNN
+* Applications on data sets
+    * Classification problem
+    * Regression problem
+* How can $k$ impact prediction result
 
 ## Dataset used in applications
 Both of the *wine* and *boston housing* dataset is loaded from *sklearn.datasets*.
