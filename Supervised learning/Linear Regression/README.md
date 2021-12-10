@@ -6,7 +6,7 @@ This repository represents the implementation and applications of Linear Regrees
 "Linear Regression.ipynb" contains the describtion and my hard coding of LR algorithm, the evaluation of LR model, then it's applied on two regression problems.
 
 Outline:
-* [Introduction](#Introduction)
+* [Introduction]
 * [Algorithm](#Algorithm)
   * [Model](#Algorithm)
   * [Prediction Evaluation](#Evaluation)
