@@ -18,7 +18,7 @@ Until now the following topics have been covered:
   * Ensemble Learning and Random Forest
 * Unsupervised learning
   * Principal Component Analysis
-* Convex and minimization methods
+* Convex and optimization methods
   * Gradient Descent
   * Stochastic Gradient Descent
 
