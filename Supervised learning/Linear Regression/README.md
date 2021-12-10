@@ -1,19 +1,25 @@
-# K-Nearest Neighbors
+# Linear Regreesion
 
-This repository represents the implementation and applications of K-Nearest Neighbors (KNN). 
+This repository represents the implementation and applications of Linear Regreesion (LR). 
 
 ## File descriptions
-"K-Nearest Neighbors.ipynb" contains the describtion and my hard coding of KNN algorithm, then it's applied on a classification and a regression problem. Further the affect of *k* is explored on a dataset.
+"Linear Regression.ipynb" contains the describtion and my hard coding of LR algorithm, the evaluation of LR model, then it's applied on two regression problems.
 
 Outline:
-* Introduction
-* Algorithm
-* Illustration
-* Advantages and Disadvantages
-* Hard code of KNN classifier and regressor
-* Application on classification
-* Application on regression
-* Impact of *k* in KNN
+* [Introduction](#Introduction)
+* [Algorithm](#Algorithm)
+  * [Model](#Algorithm)
+  * [Prediction Evaluation](#Evaluation)
+  * [*F* test](#F)
+  * [*t* test](#t)
+* [Illustration](#Illustration)
+* [Advantages and Disadvantages](#Advantages_and_Disadvantages)
+    * [Advantages](#Advantages)
+    * [Disadvantages](#Disadvantages)
+* [Hard code of linear regression](#Code)
+* [Applications on data sets](#Applications)
+    * [Ethereum (ETH) price data](#ETH)
+    * [Diabetes data](#Diabetes)
 
 ## Dataset used in applications
 Both of the *wine* and *boston housing* dataset is loaded from *sklearn.datasets*.
