@@ -12,7 +12,7 @@ Outline:
 * Advantages and Disadvantages
     * Advantages
     * Disadvantages
-* Hard code of KNN classifier and regressor
+* Code of KNN classifier and regressor
 * Applications on data sets
     * Classification problem
     * Regression problem
