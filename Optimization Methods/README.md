@@ -12,7 +12,7 @@ Outline:
 * Advantages and Disadvantages
     * Advantages
     * Disadvantages
-* Hard code of gradient descent
+* Code of gradient descent
 * Applications on data sets
     * Toys data in class
     * Ethereum (ETH) price data
