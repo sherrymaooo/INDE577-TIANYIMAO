@@ -16,7 +16,7 @@ Outline:
 * Advantages and Disadvantages
     * Advantages
     * Disadvantages
-* Hard code of linear regression
+* Code of linear regression
 * Applications on data sets
     * Ethereum (ETH) price data
     * Diabetes data
