@@ -16,7 +16,7 @@ Outline:
 * Applications on data sets
     * Classification problem
     * Regression problem
-* How can $k$ impact prediction result
+* How can *k* impact prediction result
 
 ## Dataset used in applications
 Both of the *wine* and *boston housing* dataset is loaded from *sklearn.datasets*.
