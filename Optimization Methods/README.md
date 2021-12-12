@@ -1,3 +1,4 @@
+# Gradient Descent
 This repository represents the implementation and applications of Gradient Descent. 
 
 ## File descriptions
