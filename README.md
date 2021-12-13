@@ -13,7 +13,7 @@ the following topics have been covered in class:
   * Linear Regression
   * Logistic Regression
   * Perceptron
-  * Multilayer Neural Network
+  * Multilayer Neural Network and Stochastic/Mini Batch Gradient Descent
   * Decision Tree
   * Ensemble Learning and Random Forest
 * Unsupervised Learning
