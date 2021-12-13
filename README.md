@@ -6,21 +6,20 @@ In this course, we are learning data science and machine learning algorithms and
 
 For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and impliments algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable).
 
-Until now the following topics have been covered:
+the following topics have been covered in class:
 
 * Supervised Learning
   * K-Nearest Neighbors
   * Linear Regression
   * Logistic Regression
   * Perceptron
-  * Multilayer Neural Network
+  * Multilayer Neural Network and Stochastic/Mini Batch Gradient Descent
   * Decision Tree
   * Ensemble Learning and Random Forest
 * Unsupervised Learning
   * Principal Component Analysis and K-Means
 * Optimization methods
   * Gradient Descent
-  * Stochastic Gradient Descent
 
 
 
