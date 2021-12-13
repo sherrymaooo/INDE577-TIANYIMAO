@@ -6,7 +6,7 @@ In this course, we are learning data science and machine learning algorithms and
 
 For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and impliments algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable).
 
-the following topics have been covered in class:
+The following topics have been covered in class:
 
 * Supervised Learning
   * K-Nearest Neighbors
