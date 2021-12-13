@@ -11,13 +11,12 @@ Until now the following topics have been covered:
 * Supervised Learning
   * K-Nearest Neighbors
   * Linear Regression
-  * Perceptrons
-  * Single and Multi Layer Neural Network
-  * Decision Trees
+  * Logistic Regression
+  * Perceptrons, Single and Multi Layer Neural Network
+  * Decision Tree
   * Ensemble Learning and Random Forest
 * Unsupervised Learning
-  * Principal Component Analysis
-  * K-Means
+  * Principal Component Analysis and K-Means
 * Optimization methods
   * Gradient Descent
   * Stochastic Gradient Descent
