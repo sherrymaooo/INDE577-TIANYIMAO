@@ -12,7 +12,7 @@ Until now the following topics have been covered:
   * K-Nearest Neighbors
   * Linear Regression
   * Logistic Regression
-  * Perceptron and Multi-Layer Neural Network
+  * Perceptron and Multilayer Neural Network
   * Decision Tree
   * Ensemble Learning and Random Forest
 * Unsupervised Learning
