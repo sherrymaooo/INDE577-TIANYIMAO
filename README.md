@@ -20,7 +20,6 @@ Until now the following topics have been covered:
   * Principal Component Analysis and K-Means
 * Optimization methods
   * Gradient Descent
-  * Stochastic Gradient Descent
 
 
 
