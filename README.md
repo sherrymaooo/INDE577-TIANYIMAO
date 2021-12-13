@@ -4,7 +4,7 @@ This repository is special for code assignments of course INDE577, Data Science 
 
 In this course, we are learning data science and machine learning algorithms and python-based applications. Course topics consist of supervised learning, unsupervised learning, and reinforcement learning (not sure).
 
-For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and impliments algorithms/applications/visualizations/learning materials learned in that week, a README file, dataset files (if applicable) and sub-repositories that contain .py files with functions used in applying the algorithm (if applicable).
+For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and impliments algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable).
 
 Until now the following topics have been covered:
 
@@ -12,7 +12,7 @@ Until now the following topics have been covered:
   * K-Nearest Neighbors
   * Linear Regression
   * Logistic Regression
-  * Perceptrons, Single and Multi Layer Neural Network
+  * Perceptron and Multilayer Neural Network
   * Decision Tree
   * Ensemble Learning and Random Forest
 * Unsupervised Learning
