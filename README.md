@@ -19,7 +19,7 @@ Dr. Randy R. Davila, associate professor of University of Houston-Downtown. [Ema
 
 For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and impliments algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable).
 
-Programming language used in this repository is Python 3.8.8.
+Programming language used in this repository is Python 3.
 
 The following topics have been covered in class:
 
