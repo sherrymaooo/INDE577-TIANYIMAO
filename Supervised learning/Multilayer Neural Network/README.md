@@ -1,4 +1,4 @@
-# Multilayer Neural Network and Stochastic/Mini Batch Gradient Descent
+# Multilayer Neural Network Using Stochastic/Mini Batch Gradient Descent
 
 This repository represents the implementation and applications of Multilayer Neural Network, using Batch, Stochastic and Mini Batch Gradient Descent. 
 
