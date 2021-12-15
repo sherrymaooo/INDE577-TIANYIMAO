@@ -13,7 +13,7 @@
     - [Multilayer Neural networks](#Multiple)
     - [Decision Tree](#Decision)
     - [Ensemble Learning and Random Forest](#Ensemble)
-* [Challenges of Supervised Learning](#Challenges)
+* [Challenges](#Challenges)
 * [Reference](#Reference)
 
 ---
@@ -60,7 +60,7 @@ A decision tree is a decision support tool that uses a tree-like model of decisi
 
 ---
 <a class="anchor" id="Challenges"></a>
-## Challenges of supervised learning
+## Challenges
 Although supervised learning can offer businesses advantages, such as deep data insights and improved automation, there are some challenges when building sustainable supervised learning models. The following are some of these challenges:
 
 * Supervised learning models can require certain levels of expertise to structure accurately.
