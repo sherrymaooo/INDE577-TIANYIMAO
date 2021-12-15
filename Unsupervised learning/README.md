@@ -4,8 +4,8 @@
 * [Introduction](#Introduction)
 * [How Unsupervised Learning Works](#unsupervised)
 * [Algorithms](#Algorithms)
-    - PCA(#Algorithms)
-    - K-Means Clustering(#Algorithms)
+    - [PCA](#Algorithms)
+    - [K-Means Clustering](#Algorithms)
 * [Challenges](#Challenges)
 * [Reference](#Reference)
 
