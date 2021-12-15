@@ -3,7 +3,7 @@
 
 By [Tianjian Sun](https://github.com/TianjianSun).
 
-This repository is special for code assignments of course INDE577, Data Science and Machine Learning, of Rice University in Fall 2021. The course instructor is Dr. Randy R. Davila, Associate Professor of University of Houston-Downtown.
+This repository is for code assignments of course INDE577, Data Science and Machine Learning, of Rice University in Fall 2021. The course instructor is Dr. Randy R. Davila, Associate Professor of University of Houston-Downtown.
 
 In this course, we are learning data science and machine learning algorithms and python-based applications. Course topics consist of supervised learning, unsupervised learning, and optimization methods.
 
