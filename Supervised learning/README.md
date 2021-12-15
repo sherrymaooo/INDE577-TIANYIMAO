@@ -5,7 +5,7 @@
 * [How Supervised Learning Works](#supervised)
     - [Classification](#supervised)
     - [Regression](#supervised)
-* [Supervised Learning Algorithms](#Algorithms)
+* [Algorithms](#Algorithms)
     - [K-Nearest Neighbor](#neighbor)
     - [Linear Regression](#Linear)
     - [Logistic Regression](#Logistic)
@@ -31,7 +31,7 @@ Supervised learning can be separated into two types of problems when data mining
 * **Regression** is used to understand the relationship between dependent and independent variables. It is commonly used to make projections, such as for sales revenue for a given business. Linear regression, logistical regression, and polynomial regression are popular regression algorithms.
 
 ---
-## Supervised learning algorithms <a class="anchor" id="Algorithms"></a>
+## Algorithms <a class="anchor" id="Algorithms"></a>
 
 Various algorithms and computation techniques are used in supervised machine learning processes. Below are brief explanations of models learned in class:
 
