@@ -37,7 +37,3 @@ The following topics have been covered in class:
   * Gradient Descent
 
 
-
-
-
-
