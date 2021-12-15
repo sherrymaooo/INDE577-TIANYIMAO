@@ -33,7 +33,7 @@ Supervised learning can be separated into two types of problems when data mining
 ---
 ## Supervised learning algorithms <a class="anchor" id="Algorithms"></a>
 
-Various algorithms and computation techniques are used in supervised machine learning processes. Below are brief explanations of some of the most commonly used learning methods, typically calculated through Python:
+Various algorithms and computation techniques are used in supervised machine learning processes. Below are brief explanations of models learned in class:
 
 ### K-Nearest Neighbor <a class="anchor" id="neighbor"></a>
 K-nearest neighbor, also known as the KNN algorithm, is a non-parametric algorithm that classifies data points based on their proximity and association to other available data. This algorithm assumes that similar data points can be found near each other. As a result, it seeks to calculate the distance between data points, usually through Euclidean distance, and then it assigns a category based on the most frequent category or average.  
