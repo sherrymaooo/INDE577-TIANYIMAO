@@ -1,4 +1,7 @@
 # Supervised Learning
+
+By Tianjian Sun.
+
 ## Table Content
 * [Introduction](#Introduction)
 * [How supervised learning works](#supervised)
