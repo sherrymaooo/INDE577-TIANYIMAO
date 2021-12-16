@@ -30,8 +30,6 @@ K-Means Clustering is a method of vector quantization, originally from signal pr
 ## Challenges <a class="anchor" id="Challenges"></a>
 While unsupervised learning has many benefits, some challenges can occur when it allows machine learning models to execute without any human intervention. Some of these challenges can include:
 
-* Computational complexity due to a high volume of training data
-* Longer training times
 * Higher risk of inaccurate results
 * Human intervention to validate output variables
 * Lack of transparency into the basis on which data was clustered
