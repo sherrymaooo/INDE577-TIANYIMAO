@@ -35,5 +35,5 @@ The following topics have been covered in class:
   * Principal Component Analysis and K-Means
 * Optimization methods
   * Gradient Descent
-
+* Model Comparison
 
