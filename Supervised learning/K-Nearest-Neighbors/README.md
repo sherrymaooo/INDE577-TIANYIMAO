@@ -1,32 +1,88 @@
-# K-Nearest Neighbors
+# Student Depression Prediction Using K-Nearest Neighbors (KNN)
 
-This repository represents the implementation and applications of K-Nearest Neighbors (KNN). 
+This project implements the **K-Nearest Neighbors (KNN)** algorithm to predict depression status among students based on mental health and lifestyle data. KNN is a simple, non-parametric, supervised machine learning model that predicts outcomes by identifying the "k" closest neighbors to a query point.
 
-## File descriptions
-"K-Nearest Neighbors.ipynb" contains the describtion and my hard coding of KNN algorithm, then it's applied on a classification and a regression problem. Further the affect of *k* is explored on a dataset.
+---
 
-Outline:
-* Introduction
-* Algorithm
-* Illustration
-* Advantages and Disadvantages
-    * Advantages
-    * Disadvantages
-* Code of KNN classifier and regressor
-* Applications on data sets
-    * Classification problem
-    * Regression problem
-* How can *k* impact prediction result
+## **Introduction**  
+KNN works by calculating the distances between a query point and all other points in the dataset.  
+- For **classification** tasks, the label of a new data point is determined by a majority vote among its k-nearest neighbors.  
+- For **regression** tasks, the outcome is the average value of its k-nearest neighbors.
 
-## Dataset used in applications
-Both of the *wine* and *boston housing* dataset is loaded from *sklearn.datasets*.
-* *wine* dataset 
+In this project, KNN is applied to predict **depression status** (0 = Not Depressed, 1 = Depressed). The algorithm uses **Euclidean distance** as the metric for measuring closeness between data points:
 
-The *wine* dataset is a classic and very easy multi-class classification dataset. It has 3 classes of target labels, each label has samples of 59, 71, 48, and the total sample size is 178 without any missing value. 
+\[
+d(x, y) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
+\]
 
-There're 13 features and there're all numeric, real, and positive. These features are Alcohol Malic acid, Ash, Alcalinity of ash, Magnesium, Total phenols, Flavanoids, Nonflavanoid phenols, Proanthocyanins, Color intensity, Hue, OD280/OD315 of diluted wines and Proline.
+---
 
-* *boston housing* dataset
+## **Dataset**  
 
-The *boston housing* dataset provides the median Boston house-price data by Harrison, D. and Rubinfeld, D.L. It has 1 numeric target labels, and the total sample size is 506 without missing value. There're 13 features and there're all numeric, real, and positive. 
+The dataset used in this project is the **Student Depression Dataset**, which contains information about students' mental health and related factors. It includes a mix of numerical and categorical features relevant to depression prediction.
 
+- **Target Variable**: `Depression` (binary: 0 = Not Depressed, 1 = Depressed)  
+- **Features**:  
+   - Age  
+   - Gender  
+   - CGPA (Cumulative Grade Point Average)  
+   - Work Pressure  
+   - Study Satisfaction  
+   - Sleep Duration  
+   - Dietary Habits  
+   - Degree  
+   - Suicidal Thoughts History  
+   - Family History of Mental Illness  
+- **Size**: Approximately 11,000 rows after preprocessing  
+- **Data Source**: The dataset represents mental health patterns in students and is designed for classification tasks.
+
+---
+
+## **Workflow Outline**  
+
+The project is divided into the following steps to ensure clear and reproducible results:
+
+### **Step 1: Data Cleaning and Analysis**  
+- Remove irrelevant features (e.g., IDs, Cities).  
+- Encode categorical variables into numerical values using **Label Encoding**.  
+- Handle missing values using the median of each feature.  
+- Standardize the feature values using **StandardScaler** to ensure consistent distance measurements.  
+
+### **Step 2: Train the KNN Model**  
+- Split the data into training and testing sets using a 60/40 split.  
+- Train the KNN model using an initial value of \( k = 5 \).
+
+### **Step 3: Evaluate the Model**  
+- Predict depression status on the test data.  
+- Evaluate the model using:  
+  - **Accuracy**: Proportion of correct predictions.  
+  - **Confusion Matrix**: Visual representation of correct and incorrect classifications.  
+  - **Classification Report**: Provides precision, recall, and F1-score for both classes.  
+- Plot the confusion matrix for intuitive interpretation.
+
+### **Step 4: Optimize k**  
+- Evaluate the model across a range of \( k \) values (e.g., 1 to 20).  
+- Plot the **Error Rate vs. k** graph to identify the value of \( k \) that minimizes error and ensures optimal performance.
+
+---
+
+## **Advantages and Disadvantages of KNN**
+
+**Advantages:**  
+- KNN does not require a training phase, making it a **lazy learning algorithm**.  
+- Simple to implement and requires minimal computation on smaller datasets.  
+- No assumptions about the data distribution are needed.
+
+**Disadvantages:**  
+- KNN is computationally expensive for large datasets as distances need to be calculated for all points.  
+- It performs poorly in high-dimensional data due to the **curse of dimensionality**.  
+- Sensitive to noisy data, outliers, and feature scaling, which can distort distance calculations.
+
+---
+
+## **Reproducibility**  
+
+Follow these steps to reproduce the results:
+1. **Dependencies**: Ensure the following libraries are installed:  
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib

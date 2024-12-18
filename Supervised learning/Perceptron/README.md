@@ -1,25 +1,69 @@
 # Perceptron
 
-This repository represents the implementation and applications of Perceptron. 
+This repository demonstrates the implementation and application of the **Perceptron Algorithm** for binary classification tasks. The Perceptron is a simple linear classifier used in machine learning, and this project explores its theoretical foundation and practical application.
 
-## File descriptions
-"Perceptron.ipynb" contains the describtion and coding of applications of perceptron algorithm.
+## File Descriptions
 
-Outline:
-- Introduction
-- Algorithm
-- Illustration
-- Advantages and Disadvantages
-    - Advantages
-    - Disadvantages
-- Code of Perceptron
-- Applications on data sets
+- **Perceptron.ipynb**:  
+  This Jupyter notebook contains a comprehensive walkthrough of the **Perceptron Algorithm**, including its theoretical basis, implementation, and application to real datasets.
 
-## Dataset used in applications
-The *wine* dataset is loaded from *sklearn.datasets*.
-* *wine* dataset 
+### Outline:
+- **Introduction**  
+  Overview of the Perceptron Algorithm and its purpose in classification problems.
+  
+- **Algorithm**  
+  Explanation of the mathematical model and learning rule behind the Perceptron.
 
-The *wine* dataset is a classic and very easy multi-class classification dataset. It has 3 classes of target labels, each label has samples of 59, 71, 48, and the total sample size is 178 without any missing value. 
+- **Illustration**  
+  Visualizations, including decision boundaries and error plots, to demonstrate the learning process.
 
-There're 13 features and there're all numeric, real, and positive. These features are Alcohol Malic acid, Ash, Alcalinity of ash, Magnesium, Total phenols, Flavanoids, Nonflavanoid phenols, Proanthocyanins, Color intensity, Hue, OD280/OD315 of diluted wines and Proline.
+- **Advantages and Disadvantages**  
+  - **Advantages**:  
+    Simplicity, efficiency for linearly separable data, and interpretability.  
+  - **Disadvantages**:  
+    Inability to solve non-linearly separable problems and sensitivity to feature scaling.
+
+- **Code of Perceptron**  
+  Detailed implementation of a **custom Perceptron class** with error tracking.
+
+- **Applications on Data Sets**  
+  Application of the Perceptron Algorithm on a student performance dataset.
+
+---
+
+## Dataset Used in Applications
+
+### Student Performance Dataset
+This dataset contains academic scores and demographic features of students. The goal is to classify students as **High Performance** or **Low Performance** based on their average test scores. 
+
+#### Dataset Summary:
+- **Source**: Collected for educational purposes.
+- **Features**:
+  - **Categorical**: Gender, race/ethnicity, parental level of education, lunch type, and test preparation course.
+  - **Numerical**: Math score, reading score, writing score.
+- **Target**:  
+  A binary classification target created as:
+  - `1` for High Performance (average score ≥ 70).
+  - `0` for Low Performance (average score < 70).
+  
+The dataset is clean, containing no missing values, making it ideal for algorithm demonstration.
+
+---
+
+## Reproducibility
+
+### **Dependencies**
+The project requires the following Python libraries:
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `mlxtend`
+- `scikit-learn`
+
+### **Installation**
+Install all required libraries using the following command:
+
+```bash
+pip install pandas numpy matplotlib mlxtend scikit-learn
 

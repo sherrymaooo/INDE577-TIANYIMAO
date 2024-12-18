@@ -1,37 +1,64 @@
-# K-Means Clustering
+# **PCA and K-Means Clustering on Country Dataset**
 
-This repository represents the implementation and applications of k-means clustering. 
+## **Project Overview**
 
-## File descriptions
-"K_Means Clustering.ipynb" contains the describtion and coding of k-means algorithm, then it's applied on *iris* and *wine* data set.
+This project applies Principal Component Analysis (PCA) and K-means clustering to analyze and group countries based on their socio-economic indicators. By simplifying the dataset and identifying clusters, we uncover hidden patterns and insights about global country characteristics.
 
-Outline:
-* Introduction
-* Algorithm
-    - General Process
-    - Model
-* Illustration
-* Advantages and Disadvantages
-    - Advantages
-    - Disadvantages
-* Code of K-Means Clustring
-* Applications on data sets
-    - *Iris* data
-    - *wine* data set
+---
 
-## Dataset used in applications
-Both of the *iris* and *wine* dataset is loaded from *sklearn.datasets*.
+## **Goals of the Project**
 
-* *iris* dataset
+1. Simplify high-dimensional data using PCA while retaining critical information.  
+2. Identify natural groupings in the dataset using K-means clustering.  
+3. Visualize the clustering results in a reduced 2D space for better interpretability.  
+4. Analyze cluster characteristics to differentiate high, middle, and low-performing countries.
 
-*iris* dataset is perhaps the best known database to be found in the pattern recognition literature. Fisher's paper is a classic in the field and is referenced frequently to this day. 
+---
 
-*iris* data sets consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) petal and sepal length, stored in a 150x4 numpy.ndarray, and the rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width.
+## **Dataset Description**
 
-* *wine* dataset 
+The project uses a **Country Dataset** containing socio-economic indicators for various countries. Below is the data dictionary:
 
-The *wine* dataset is a classic and very easy multi-class classification dataset. It has 3 classes of target labels, each label has samples of 59, 71, 48, and the total sample size is 178 without any missing value. 
+| **Variable**    | **Description**                                                 |
+|-----------------|-----------------------------------------------------------------|
+| `country`       | Name of the country                                             |
+| `child_mort`    | Child mortality rate (deaths per 1,000 live births)             |
+| `exports`       | Exports as a percentage of GDP                                  |
+| `health`        | Health expenditure as a percentage of GDP                       |
+| `imports`       | Imports as a percentage of GDP                                  |
+| `income`        | Net income per capita                                           |
+| `inflation`     | Inflation rate (percentage)                                     |
+| `life_expec`    | Life expectancy (years)                                         |
+| `total_fer`     | Total fertility rate (births per woman)                         |
+| `gdpp`          | GDP per capita                                                  |
 
-There're 13 features and there're all numeric, real, and positive. These features are Alcohol Malic acid, Ash, Alcalinity of ash, Magnesium, Total phenols, Flavanoids, Nonflavanoid phenols, Proanthocyanins, Color intensity, Hue, OD280/OD315 of diluted wines and Proline.
+---
+
+## **Steps Covered in the Project**
+
+1. Data Preparation and Exploration
+2. Principal Component Analysis (PCA)
+3. Elbow Method for K-Means
+4. K-Means Clustering
+5. Cluster Analysis
+
+---
+
+## **Reproducibility**
+
+### **Dependencies**
+
+To reproduce the analysis, the following Python libraries are required:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+
+Install the dependencies using the following command:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
 
 

@@ -1,26 +1,66 @@
 # Logistic Regression
 
-This repository represents the implementation and applications of Logistic Regression. 
+This repository demonstrates the implementation of Logistic Regression to predict students' test preparation course completion status. Logistic Regression, a powerful yet interpretable machine learning model, serves as the foundation for this analysis.
 
-## File descriptions
-"Logistic_Regression.ipynb" contains the describtion and my hard coding of Logistic Regression algorithm, then it's applied on a classification problem.
+---
 
-Outline:
-- Introduction
-- Algorithm
-    - Model
-    - Cross-entropy
-    - Gradient Descent in Solving Logistic Regression
-- Illustration
-- Advantages and Disadvantages
-    - Advantages
-    - Disadvantages
-- Code of Logistic Regression
-- Applications on data sets
+## File Descriptions
+**"Logistic_Regression.ipynb"** contains the description and implementation of Logistic Regression, including all preprocessing steps to prepare the data for modeling.
 
-## Dataset used in applications
+---
 
-The *wine* dataset is loaded from *sklearn.datasets*.
-* *wine* dataset 
+## Knowledge About Logistic Regression
 
-The *wine* dataset is a classic and very easy multi-class classification dataset. It has 3 classes of target labels, each label has samples of 59, 71, 48, and the total sample size is 178 without any missing value. 
+Logistic Regression is a supervised machine learning algorithm used for binary classification tasks. It models the relationship between the binary dependent variable and one or more independent variables using the logistic (sigmoid) function. It outputs probabilities to predict the likelihood of class membership.
+---
+
+## Dataset Used
+The dataset includes information about students' academic performance and other demographics. The target variable, `test preparation course`, indicates whether students completed the course.
+
+### *Students Performance Dataset*
+**Source**: Custom dataset with the following features:
+
+### Key Features:
+1. **Math Score**: Numerical.
+2. **Reading Score**: Numerical.
+3. **Writing Score**: Numerical.
+4. **Gender**: Categorical (encoded).
+5. **Lunch Type**: Categorical (encoded).
+6. **Parental Education Level**: Categorical (encoded).
+7. **Test Preparation Course**: Binary target variable (0 = Incomplete, 1 = Completed).
+
+### Preprocessing Steps:
+- Categorical features were encoded using **One-Hot Encoding**.
+- Numerical features were scaled using **StandardScaler**.
+
+---
+
+## Goals and Workflow
+
+The primary goal of this project is to predict whether a student completed the test preparation course using Logistic Regression. The workflow includes:
+
+1. **Data Cleaning and Preprocessing**
+2. **Feature Engineering**
+3. **Training the Logistic Regression Model**
+4. **Evaluating Model Performance**
+
+---
+
+### Summary:
+The Logistic Regression model demonstrated strong performance as a baseline classifier for predicting the target variable.
+
+---
+
+## Reproducibility
+
+To reproduce the results of this project, follow these steps:
+
+### Prerequisites
+Ensure you have Python and the required libraries installed:
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+### Run the Code
+Execute the notebook "Logistic_Regression.ipynb" step by step to reproduce the results.
+
