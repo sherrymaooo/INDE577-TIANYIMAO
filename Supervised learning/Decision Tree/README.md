@@ -104,7 +104,10 @@ To reproduce the results, follow these steps:
 
 ### Prerequisites  
 Ensure you have Python and the following libraries installed:  
-```bash
-pip install pandas numpy scikit-learn matplotlib
+- pandas
+- seaborn
+- numpy
+- matplotlib
+- scikit-learn
 
 

@@ -75,10 +75,13 @@ The primary goal of this project is to predict students' depression status using
 
 ## Reproducibility  
 
-To reproduce the results of this project, follow these steps:  
+To reproduce the results, follow these steps:
 
 ### Prerequisites  
-Ensure you have Python and the required libraries installed:  
-```bash
-pip install pandas numpy scikit-learn matplotlib
+Ensure you have Python and the following libraries installed:  
+- pandas
+- seaborn
+- numpy
+- matplotlib
+- scikit-learn
 
